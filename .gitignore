@@ -1,0 +1,15 @@
+# Built installer (run web-server/store-setup/build.sh to recreate)
+web-server/store-setup/dist/
+
+# Never commit credentials or machine-specific files
+*.env
+.env*
+wp-config.php
+*.pem
+*.key
+*credentials*.json
+
+# OS / editor clutter
+.DS_Store
+Thumbs.db
+*.swp
